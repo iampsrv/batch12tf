@@ -28,15 +28,15 @@ variable "AWS_SECRET_KEY" {
 #   name_sg = "mysgmod"
 # }
 
-module "myec2module" {
-  source  = "iampsrv/myec2module/pranjal"
-  version = "1.0.0"
-  instance_type_mod="t2.micro"
-  ami_id_mod="ami-053b0d53c279acc90"
-  name="myec2publishmod"
-  name_sg = "mysgmod"
-  # insert the 4 required variables here
-}
+# module "myec2module" {
+#   source  = "iampsrv/myec2module/pranjal"
+#   version = "1.0.0"
+#   instance_type_mod="t2.micro"
+#   ami_id_mod="ami-053b0d53c279acc90"
+#   name="myec2publishmod"
+#   name_sg = "mysgmod"
+#   # insert the 4 required variables here
+# }
 
 # terraform {
 #   required_providers {
